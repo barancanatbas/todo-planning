@@ -1,0 +1,14 @@
+app:
+  port: 8082
+  base-path: /
+  log-requests: true
+log:
+  level: "debug"
+maria-db:
+  host: db
+  port: 3306
+  name: todo
+  user: root
+  pass: 123
+  char-set: "utf8mb4"
+  debug: false
